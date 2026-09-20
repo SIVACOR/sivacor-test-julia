@@ -1,0 +1,3 @@
+SIVACOR Julia installation test
+Julia version: 1.10.12
+Example.domath(5) = 10

@@ -1,0 +1,42 @@
+
+
+===== Stage 1 Dependency Resolution =====
+
+┌ Warning: The active manifest file has dependencies that were resolved with a different julia version (1.13.0). Unexpected behavior may occur.
+└ @ ~/project/sivacor-test-julia-main/Manifest.toml:0
+┌ Warning: The project dependencies or compat requirements have changed since the manifest was last resolved.
+│ It is recommended to `Pkg.resolve()` or consider `Pkg.update()` if necessary.
+└ @ Pkg.API /usr/local/julia/share/julia/stdlib/v1.10/Pkg/src/API.jl:1142
+   Installed Example ─ v0.5.5
+Precompiling packages...
+    503.1 ms  ✓ Example
+  1 dependency successfully precompiled in 2 seconds
+
+
+===== Stage 1 Output =====
+
+  Activating project at `~/project/sivacor-test-julia-main`
+┌ Warning: The active manifest file has dependencies that were resolved with a different julia version (1.13.0). Unexpected behavior may occur.
+└ @ ~/project/sivacor-test-julia-main/Manifest.toml:0
+┌ Warning: The project dependencies or compat requirements have changed since the manifest was last resolved.
+│ It is recommended to `Pkg.resolve()` or consider `Pkg.update()` if necessary.
+└ @ Pkg.API /usr/local/julia/share/julia/stdlib/v1.10/Pkg/src/API.jl:1142
+
+
+===== Stage 2 Dependency Resolution =====
+
+┌ Warning: The active manifest file has dependencies that were resolved with a different julia version (1.13.0). Unexpected behavior may occur.
+└ @ ~/project/sivacor-test-julia-main/Manifest.toml:0
+┌ Warning: The project dependencies or compat requirements have changed since the manifest was last resolved.
+│ It is recommended to `Pkg.resolve()` or consider `Pkg.update()` if necessary.
+└ @ Pkg.API /usr/local/julia/share/julia/stdlib/v1.10/Pkg/src/API.jl:1142
+
+
+===== Stage 2 Output =====
+
+  Activating project at `~/project/sivacor-test-julia-main`
+┌ Warning: The active manifest file has dependencies that were resolved with a different julia version (1.13.0). Unexpected behavior may occur.
+└ @ ~/project/sivacor-test-julia-main/Manifest.toml:0
+┌ Warning: The project dependencies or compat requirements have changed since the manifest was last resolved.
+│ It is recommended to `Pkg.resolve()` or consider `Pkg.update()` if necessary.
+└ @ Pkg.API /usr/local/julia/share/julia/stdlib/v1.10/Pkg/src/API.jl:1142

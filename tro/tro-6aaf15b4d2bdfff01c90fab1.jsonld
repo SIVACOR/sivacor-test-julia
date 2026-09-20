@@ -1,0 +1,778 @@
+{
+  "@context": {
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "sivacor": "https://vocabulary.sivacor.org/0.1/",
+    "trov": "https://w3id.org/trace/trov/0.1#"
+  },
+  "@graph": [
+    {
+      "@id": "tro",
+      "@type": [
+        "trov:TransparentResearchObject",
+        "schema:CreativeWork"
+      ],
+      "schema:creator": "SIVACOR/tro_utils",
+      "schema:dateCreated": "2026-09-19T23:10:19.720871",
+      "schema:description": "SIVACOR Run",
+      "schema:name": "free-biped",
+      "trov:createdWith": {
+        "@type": "schema:SoftwareApplication",
+        "schema:name": "tro-utils",
+        "schema:softwareVersion": "0.4.6"
+      },
+      "trov:hasArrangement": [
+        {
+          "@id": "arrangement/0",
+          "@type": "trov:ArtifactArrangement",
+          "rdfs:comment": "Before executing workflow",
+          "trov:hasArtifactLocation": [
+            {
+              "@id": "arrangement/0/location/0",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/0"
+              },
+              "trov:path": "sivacor-test-julia-main/Manifest.toml"
+            },
+            {
+              "@id": "arrangement/0/location/1",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/1"
+              },
+              "trov:path": "sivacor-test-julia-main/setup.jl"
+            },
+            {
+              "@id": "arrangement/0/location/2",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/2"
+              },
+              "trov:path": "sivacor-test-julia-main/main.jl"
+            },
+            {
+              "@id": "arrangement/0/location/3",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/3"
+              },
+              "trov:path": "sivacor-test-julia-main/.gitignore"
+            },
+            {
+              "@id": "arrangement/0/location/4",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/4"
+              },
+              "trov:path": "sivacor-test-julia-main/LICENSE"
+            },
+            {
+              "@id": "arrangement/0/location/5",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/5"
+              },
+              "trov:path": "sivacor-test-julia-main/Project.toml"
+            },
+            {
+              "@id": "arrangement/0/location/6",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/6"
+              },
+              "trov:path": "sivacor-test-julia-main/README.md"
+            }
+          ]
+        },
+        {
+          "@id": "arrangement/1",
+          "@type": "trov:ArtifactArrangement",
+          "rdfs:comment": "After resolving dependencies for workflow step 1",
+          "trov:hasArtifactLocation": [
+            {
+              "@id": "arrangement/1/location/0",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/0"
+              },
+              "trov:path": "sivacor-test-julia-main/Manifest.toml"
+            },
+            {
+              "@id": "arrangement/1/location/1",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/1"
+              },
+              "trov:path": "sivacor-test-julia-main/setup.jl"
+            },
+            {
+              "@id": "arrangement/1/location/2",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/2"
+              },
+              "trov:path": "sivacor-test-julia-main/main.jl"
+            },
+            {
+              "@id": "arrangement/1/location/3",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/3"
+              },
+              "trov:path": "sivacor-test-julia-main/.gitignore"
+            },
+            {
+              "@id": "arrangement/1/location/4",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/4"
+              },
+              "trov:path": "sivacor-test-julia-main/LICENSE"
+            },
+            {
+              "@id": "arrangement/1/location/5",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/5"
+              },
+              "trov:path": "sivacor-test-julia-main/Project.toml"
+            },
+            {
+              "@id": "arrangement/1/location/6",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/6"
+              },
+              "trov:path": "sivacor-test-julia-main/README.md"
+            }
+          ]
+        },
+        {
+          "@id": "arrangement/2",
+          "@type": "trov:ArtifactArrangement",
+          "rdfs:comment": "After executing workflow step 1",
+          "trov:hasArtifactLocation": [
+            {
+              "@id": "arrangement/2/location/0",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/0"
+              },
+              "trov:path": "sivacor-test-julia-main/Manifest.toml"
+            },
+            {
+              "@id": "arrangement/2/location/1",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/1"
+              },
+              "trov:path": "sivacor-test-julia-main/setup.jl"
+            },
+            {
+              "@id": "arrangement/2/location/2",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/2"
+              },
+              "trov:path": "sivacor-test-julia-main/main.jl"
+            },
+            {
+              "@id": "arrangement/2/location/3",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/3"
+              },
+              "trov:path": "sivacor-test-julia-main/.gitignore"
+            },
+            {
+              "@id": "arrangement/2/location/4",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/4"
+              },
+              "trov:path": "sivacor-test-julia-main/LICENSE"
+            },
+            {
+              "@id": "arrangement/2/location/5",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/5"
+              },
+              "trov:path": "sivacor-test-julia-main/Project.toml"
+            },
+            {
+              "@id": "arrangement/2/location/6",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/6"
+              },
+              "trov:path": "sivacor-test-julia-main/README.md"
+            }
+          ]
+        },
+        {
+          "@id": "arrangement/3",
+          "@type": "trov:ArtifactArrangement",
+          "rdfs:comment": "After resolving dependencies for workflow step 2",
+          "trov:hasArtifactLocation": [
+            {
+              "@id": "arrangement/3/location/0",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/0"
+              },
+              "trov:path": "sivacor-test-julia-main/Manifest.toml"
+            },
+            {
+              "@id": "arrangement/3/location/1",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/1"
+              },
+              "trov:path": "sivacor-test-julia-main/setup.jl"
+            },
+            {
+              "@id": "arrangement/3/location/2",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/2"
+              },
+              "trov:path": "sivacor-test-julia-main/main.jl"
+            },
+            {
+              "@id": "arrangement/3/location/3",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/3"
+              },
+              "trov:path": "sivacor-test-julia-main/.gitignore"
+            },
+            {
+              "@id": "arrangement/3/location/4",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/4"
+              },
+              "trov:path": "sivacor-test-julia-main/LICENSE"
+            },
+            {
+              "@id": "arrangement/3/location/5",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/5"
+              },
+              "trov:path": "sivacor-test-julia-main/Project.toml"
+            },
+            {
+              "@id": "arrangement/3/location/6",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/6"
+              },
+              "trov:path": "sivacor-test-julia-main/README.md"
+            }
+          ]
+        },
+        {
+          "@id": "arrangement/4",
+          "@type": "trov:ArtifactArrangement",
+          "rdfs:comment": "After executing workflow step 2",
+          "trov:hasArtifactLocation": [
+            {
+              "@id": "arrangement/4/location/0",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/0"
+              },
+              "trov:path": "sivacor-test-julia-main/Manifest.toml"
+            },
+            {
+              "@id": "arrangement/4/location/1",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/1"
+              },
+              "trov:path": "sivacor-test-julia-main/setup.jl"
+            },
+            {
+              "@id": "arrangement/4/location/2",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/2"
+              },
+              "trov:path": "sivacor-test-julia-main/main.jl"
+            },
+            {
+              "@id": "arrangement/4/location/3",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/3"
+              },
+              "trov:path": "sivacor-test-julia-main/.gitignore"
+            },
+            {
+              "@id": "arrangement/4/location/4",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/4"
+              },
+              "trov:path": "sivacor-test-julia-main/LICENSE"
+            },
+            {
+              "@id": "arrangement/4/location/5",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/5"
+              },
+              "trov:path": "sivacor-test-julia-main/Project.toml"
+            },
+            {
+              "@id": "arrangement/4/location/6",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/6"
+              },
+              "trov:path": "sivacor-test-julia-main/README.md"
+            },
+            {
+              "@id": "arrangement/4/location/7",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/7"
+              },
+              "trov:path": "sivacor-test-julia-main/results/results.txt"
+            }
+          ]
+        }
+      ],
+      "trov:hasAttribute": [],
+      "trov:hasComposition": {
+        "@id": "composition/1",
+        "@type": "trov:ArtifactComposition",
+        "trov:hasArtifact": [
+          {
+            "@id": "composition/1/artifact/0",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "46a5ade4a2a4f142614982a06fe3bc08750f7ab3b0da01b7f9cd494cfb5161fc"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/1",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "63ff4acfc98fc3ded308f977a6521d748062046b684e1cd1c24d37601f60fc57"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/2",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "851cbdf5066736833cfe676f2d84b6690c999dbd3d765de5124f3c1de90a72d9"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/3",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "ca025ce18c213b731cdf5f4f964c57062787aa64cafeed7c5243731b039fdbfa"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/4",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "6b7f4ac0ecee3b726885854eadaf7af3a36672610b301f8f0f8dfb0795e612d5"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/5",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "751ef3623cc8355baa33304b4396eb981375dc73ef7afd926cb9b3d0a5f4d043"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/6",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "4e41be3db9627da24b89e728303e65699ab1d6e71a27132ce01662feadc2bd65"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/7",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "6f3da0a4072e1b3ce22afae7756ee8e4fad2eb5efc327b1990f9368a77cd974f"
+            },
+            "trov:mimeType": "text/plain"
+          }
+        ],
+        "trov:hasFingerprint": {
+          "@id": "fingerprint",
+          "@type": "trov:CompositionFingerprint",
+          "trov:hash": {
+            "trov:hashAlgorithm": "sha256",
+            "trov:hashValue": "399efaa20712220ed93f24c09f6a62ddf54e0d5d8232f5f3e0c680ef4edc722f"
+          }
+        }
+      },
+      "trov:hasPerformance": [
+        {
+          "@id": "trp/0",
+          "@type": "trov:TrustedResearchPerformance",
+          "rdfs:comment": "SIVACOR dependency resolution (setup.jl) step 1",
+          "sivacor:Architecture": "x86_64",
+          "sivacor:CPUSecondsTotal": 3.283,
+          "sivacor:DockerRunArgs": "{\"image\": \"ghcr.io/sivacor/julia1.10:1.10.12-20260916\", \"entrypoint\": [\"/usr/local/julia/bin/julia\", \"--startup-file=no\", \"--project=.\", \"-e\"], \"command\": \"'using Pkg; Pkg.instantiate()'\", \"detach\": true, \"mounts\": [{\"Target\": \"/workspace\", \"Source\": \"/home/ubuntu/volumes/tmp/workspace-6aaf165bd2bdfff01c90fab2\", \"Type\": \"bind\", \"ReadOnly\": false}, {\"Target\": \"/tmp\", \"Source\": \"/home/ubuntu/volumes/tmp/tmp-6aaf165bd2bdfff01c90fab2\", \"Type\": \"bind\", \"ReadOnly\": false}], \"network_disabled\": false, \"read_only\": true, \"working_dir\": \"/workspace/project/sivacor-test-julia-main\", \"user\": \"1000:1000\", \"environment\": {\"TMPDIR\": \"/tmp\", \"TEMP\": \"/tmp\", \"TMP\": \"/tmp\", \"HOME\": \"/workspace\", \"R_LIBS\": \"/workspace/R/library\", \"R_LIBS_USER\": \"/workspace/R/library\", \"MLM_LICENSE_FILE\": \"27007@rtlicense1.uits.indiana.edu\"}, \"labels\": {\"org.sivacor.worker_queue\": \"sivacor.b11617f4-16f3-4153-a457-90a9d0c7ffbe\", \"org.sivacor.job_id\": \"6aaf15b4d2bdfff01c90fab1\"}, \"mem_limit\": 29382434816, \"memswap_limit\": 29382434816}",
+          "sivacor:FinishedAt": "2026-09-19T23:10:32.063339161Z",
+          "sivacor:ImageRepoDigests": [
+            "ghcr.io/sivacor/julia1.10@sha256:d192705c4cf1842c1d8be4fb96a6a71101644913e8f9a03badff1e65ab17e8ba"
+          ],
+          "sivacor:ImageRepoTags": [
+            "ghcr.io/sivacor/julia1.10:1.10.12-20260916"
+          ],
+          "sivacor:ImageSize": 224116435,
+          "sivacor:KernelVersion": "7.0.0-31-generic",
+          "sivacor:MaxCPUPercent": 165.69,
+          "sivacor:MaxDiskUsage": 208896,
+          "sivacor:MaxMemoryUsage": 214343680,
+          "sivacor:MemTotal": 31529918464,
+          "sivacor:NCPU": 8,
+          "sivacor:OSType": "linux",
+          "sivacor:OSVersion": "24.04",
+          "sivacor:OperatingSystem": "Ubuntu 24.04.5 LTS",
+          "sivacor:Processor": "AMD EPYC-Milan Processor",
+          "sivacor:RequestedDiskGB": null,
+          "sivacor:RequestedMemoryGB": 30,
+          "sivacor:StartedAt": "2026-09-19T23:10:28.193757663Z",
+          "sivacor:WorkspaceDiskTotal": 61285326848,
+          "trov:accessedArrangement": {
+            "@id": "trp/0/binding/0",
+            "@type": "trov:ArrangementBinding",
+            "trov:arrangement": {
+              "@id": "arrangement/0"
+            },
+            "trov:boundTo": "/workspace"
+          },
+          "trov:contributedToArrangement": {
+            "@id": "trp/0/binding/1",
+            "@type": "trov:ArrangementBinding",
+            "trov:arrangement": {
+              "@id": "arrangement/1"
+            },
+            "trov:boundTo": "/workspace"
+          },
+          "trov:endedAtTime": "2026-09-19T23:10:32.863311",
+          "trov:hasPerformanceAttribute": [
+            {
+              "@id": "trp/0/attribute/0",
+              "@type": "trov:EnvironmentIsolation",
+              "trov:warrantedBy": {
+                "@id": "trs/capability/1"
+              }
+            },
+            {
+              "@id": "trp/0/attribute/1",
+              "@type": "trov:NonInteractiveExecution",
+              "trov:warrantedBy": {
+                "@id": "trs/capability/3"
+              }
+            },
+            {
+              "@id": "trp/0/attribute/2",
+              "@type": "trov:CapabilitiesTechnicallyEnforced",
+              "trov:warrantedBy": {
+                "@id": "trs/capability/4"
+              }
+            }
+          ],
+          "trov:startedAtTime": "2026-09-19T23:10:19.980724",
+          "trov:wasConductedBy": {
+            "@id": "trs"
+          }
+        },
+        {
+          "@id": "trp/1",
+          "@type": "trov:TrustedResearchPerformance",
+          "rdfs:comment": "SIVACOR workflow execution (setup.jl) step 1",
+          "sivacor:Architecture": "x86_64",
+          "sivacor:CPUSecondsTotal": 2.695,
+          "sivacor:DockerRunArgs": "{\"image\": \"ghcr.io/sivacor/julia1.10:1.10.12-20260916\", \"entrypoint\": [\"/usr/local/julia/bin/julia\", \"--startup-file=no\", \"--project=.\"], \"command\": \"setup.jl\", \"detach\": true, \"mounts\": [{\"Target\": \"/workspace\", \"Source\": \"/home/ubuntu/volumes/tmp/workspace-6aaf165bd2bdfff01c90fab2\", \"Type\": \"bind\", \"ReadOnly\": false}, {\"Target\": \"/tmp\", \"Source\": \"/home/ubuntu/volumes/tmp/tmp-6aaf165bd2bdfff01c90fab2\", \"Type\": \"bind\", \"ReadOnly\": false}], \"network_disabled\": false, \"read_only\": true, \"working_dir\": \"/workspace/project/sivacor-test-julia-main\", \"user\": \"1000:1000\", \"environment\": {\"TMPDIR\": \"/tmp\", \"TEMP\": \"/tmp\", \"TMP\": \"/tmp\", \"HOME\": \"/workspace\", \"R_LIBS\": \"/workspace/R/library\", \"R_LIBS_USER\": \"/workspace/R/library\", \"MLM_LICENSE_FILE\": \"27007@rtlicense1.uits.indiana.edu\"}, \"labels\": {\"org.sivacor.worker_queue\": \"sivacor.b11617f4-16f3-4153-a457-90a9d0c7ffbe\", \"org.sivacor.job_id\": \"6aaf15b4d2bdfff01c90fab1\"}, \"mem_limit\": 29382434816, \"memswap_limit\": 29382434816}",
+          "sivacor:FinishedAt": "2026-09-19T23:10:38.350510098Z",
+          "sivacor:ImageRepoDigests": [
+            "ghcr.io/sivacor/julia1.10@sha256:d192705c4cf1842c1d8be4fb96a6a71101644913e8f9a03badff1e65ab17e8ba"
+          ],
+          "sivacor:ImageRepoTags": [
+            "ghcr.io/sivacor/julia1.10:1.10.12-20260916"
+          ],
+          "sivacor:ImageSize": 224116435,
+          "sivacor:KernelVersion": "7.0.0-31-generic",
+          "sivacor:MaxCPUPercent": 165.08,
+          "sivacor:MaxDiskUsage": 225280,
+          "sivacor:MaxMemoryUsage": 228458496,
+          "sivacor:MemTotal": 31529918464,
+          "sivacor:NCPU": 8,
+          "sivacor:OSType": "linux",
+          "sivacor:OSVersion": "24.04",
+          "sivacor:OperatingSystem": "Ubuntu 24.04.5 LTS",
+          "sivacor:Processor": "AMD EPYC-Milan Processor",
+          "sivacor:RequestedDiskGB": null,
+          "sivacor:RequestedMemoryGB": 30,
+          "sivacor:StartedAt": "2026-09-19T23:10:35.229530017Z",
+          "sivacor:WorkspaceDiskTotal": 61285326848,
+          "trov:accessedArrangement": {
+            "@id": "trp/1/binding/0",
+            "@type": "trov:ArrangementBinding",
+            "trov:arrangement": {
+              "@id": "arrangement/1"
+            },
+            "trov:boundTo": "/workspace"
+          },
+          "trov:contributedToArrangement": {
+            "@id": "trp/1/binding/1",
+            "@type": "trov:ArrangementBinding",
+            "trov:arrangement": {
+              "@id": "arrangement/2"
+            },
+            "trov:boundTo": "/workspace"
+          },
+          "trov:endedAtTime": "2026-09-19T23:10:39.101559",
+          "trov:hasPerformanceAttribute": [
+            {
+              "@id": "trp/1/attribute/0",
+              "@type": "trov:EnvironmentIsolation",
+              "trov:warrantedBy": {
+                "@id": "trs/capability/1"
+              }
+            },
+            {
+              "@id": "trp/1/attribute/1",
+              "@type": "trov:NonInteractiveExecution",
+              "trov:warrantedBy": {
+                "@id": "trs/capability/3"
+              }
+            },
+            {
+              "@id": "trp/1/attribute/2",
+              "@type": "trov:CapabilitiesTechnicallyEnforced",
+              "trov:warrantedBy": {
+                "@id": "trs/capability/4"
+              }
+            }
+          ],
+          "trov:startedAtTime": "2026-09-19T23:10:33.609957",
+          "trov:wasConductedBy": {
+            "@id": "trs"
+          }
+        },
+        {
+          "@id": "trp/2",
+          "@type": "trov:TrustedResearchPerformance",
+          "rdfs:comment": "SIVACOR dependency resolution (main.jl) step 2",
+          "sivacor:Architecture": "x86_64",
+          "sivacor:CPUSecondsTotal": 2.694,
+          "sivacor:DockerRunArgs": "{\"image\": \"ghcr.io/sivacor/julia1.10:1.10.12-20260916\", \"entrypoint\": [\"/usr/local/julia/bin/julia\", \"--startup-file=no\", \"--project=.\", \"-e\"], \"command\": \"'using Pkg; Pkg.instantiate()'\", \"detach\": true, \"mounts\": [{\"Target\": \"/workspace\", \"Source\": \"/home/ubuntu/volumes/tmp/workspace-6aaf165bd2bdfff01c90fab2\", \"Type\": \"bind\", \"ReadOnly\": false}, {\"Target\": \"/tmp\", \"Source\": \"/home/ubuntu/volumes/tmp/tmp-6aaf165bd2bdfff01c90fab2\", \"Type\": \"bind\", \"ReadOnly\": false}], \"network_disabled\": false, \"read_only\": true, \"working_dir\": \"/workspace/project/sivacor-test-julia-main\", \"user\": \"1000:1000\", \"environment\": {\"TMPDIR\": \"/tmp\", \"TEMP\": \"/tmp\", \"TMP\": \"/tmp\", \"HOME\": \"/workspace\", \"R_LIBS\": \"/workspace/R/library\", \"R_LIBS_USER\": \"/workspace/R/library\", \"MLM_LICENSE_FILE\": \"27007@rtlicense1.uits.indiana.edu\"}, \"labels\": {\"org.sivacor.worker_queue\": \"sivacor.b11617f4-16f3-4153-a457-90a9d0c7ffbe\", \"org.sivacor.job_id\": \"6aaf15b4d2bdfff01c90fab1\"}, \"mem_limit\": 29382434816, \"memswap_limit\": 29382434816}",
+          "sivacor:FinishedAt": "2026-09-19T23:10:43.586498909Z",
+          "sivacor:ImageRepoDigests": [
+            "ghcr.io/sivacor/julia1.10@sha256:d192705c4cf1842c1d8be4fb96a6a71101644913e8f9a03badff1e65ab17e8ba"
+          ],
+          "sivacor:ImageRepoTags": [
+            "ghcr.io/sivacor/julia1.10:1.10.12-20260916"
+          ],
+          "sivacor:ImageSize": 224116435,
+          "sivacor:KernelVersion": "7.0.0-31-generic",
+          "sivacor:MaxCPUPercent": 165.44,
+          "sivacor:MaxDiskUsage": 225280,
+          "sivacor:MaxMemoryUsage": 207433728,
+          "sivacor:MemTotal": 31529918464,
+          "sivacor:NCPU": 8,
+          "sivacor:OSType": "linux",
+          "sivacor:OSVersion": "24.04",
+          "sivacor:OperatingSystem": "Ubuntu 24.04.5 LTS",
+          "sivacor:Processor": "AMD EPYC-Milan Processor",
+          "sivacor:RequestedDiskGB": null,
+          "sivacor:RequestedMemoryGB": 30,
+          "sivacor:StartedAt": "2026-09-19T23:10:41.366902768Z",
+          "sivacor:WorkspaceDiskTotal": 61285326848,
+          "trov:accessedArrangement": {
+            "@id": "trp/2/binding/0",
+            "@type": "trov:ArrangementBinding",
+            "trov:arrangement": {
+              "@id": "arrangement/2"
+            },
+            "trov:boundTo": "/workspace"
+          },
+          "trov:contributedToArrangement": {
+            "@id": "trp/2/binding/1",
+            "@type": "trov:ArrangementBinding",
+            "trov:arrangement": {
+              "@id": "arrangement/3"
+            },
+            "trov:boundTo": "/workspace"
+          },
+          "trov:endedAtTime": "2026-09-19T23:10:45.131202",
+          "trov:hasPerformanceAttribute": [
+            {
+              "@id": "trp/2/attribute/0",
+              "@type": "trov:EnvironmentIsolation",
+              "trov:warrantedBy": {
+                "@id": "trs/capability/1"
+              }
+            },
+            {
+              "@id": "trp/2/attribute/1",
+              "@type": "trov:NonInteractiveExecution",
+              "trov:warrantedBy": {
+                "@id": "trs/capability/3"
+              }
+            },
+            {
+              "@id": "trp/2/attribute/2",
+              "@type": "trov:CapabilitiesTechnicallyEnforced",
+              "trov:warrantedBy": {
+                "@id": "trs/capability/4"
+              }
+            }
+          ],
+          "trov:startedAtTime": "2026-09-19T23:10:39.783811",
+          "trov:wasConductedBy": {
+            "@id": "trs"
+          }
+        },
+        {
+          "@id": "trp/3",
+          "@type": "trov:TrustedResearchPerformance",
+          "rdfs:comment": "SIVACOR workflow execution (main.jl) step 2",
+          "sivacor:Architecture": "x86_64",
+          "sivacor:CPUSecondsTotal": 2.696,
+          "sivacor:DockerRunArgs": "{\"image\": \"ghcr.io/sivacor/julia1.10:1.10.12-20260916\", \"entrypoint\": [\"/usr/local/julia/bin/julia\", \"--startup-file=no\", \"--project=.\"], \"command\": \"main.jl\", \"detach\": true, \"mounts\": [{\"Target\": \"/workspace\", \"Source\": \"/home/ubuntu/volumes/tmp/workspace-6aaf165bd2bdfff01c90fab2\", \"Type\": \"bind\", \"ReadOnly\": false}, {\"Target\": \"/tmp\", \"Source\": \"/home/ubuntu/volumes/tmp/tmp-6aaf165bd2bdfff01c90fab2\", \"Type\": \"bind\", \"ReadOnly\": false}], \"network_disabled\": true, \"read_only\": true, \"working_dir\": \"/workspace/project/sivacor-test-julia-main\", \"user\": \"1000:1000\", \"environment\": {\"TMPDIR\": \"/tmp\", \"TEMP\": \"/tmp\", \"TMP\": \"/tmp\", \"HOME\": \"/workspace\", \"R_LIBS\": \"/workspace/R/library\", \"R_LIBS_USER\": \"/workspace/R/library\", \"MLM_LICENSE_FILE\": \"27007@rtlicense1.uits.indiana.edu\"}, \"labels\": {\"org.sivacor.worker_queue\": \"sivacor.b11617f4-16f3-4153-a457-90a9d0c7ffbe\", \"org.sivacor.job_id\": \"6aaf15b4d2bdfff01c90fab1\"}, \"mem_limit\": 29382434816, \"memswap_limit\": 29382434816}",
+          "sivacor:FinishedAt": "2026-09-19T23:10:50.510294558Z",
+          "sivacor:ImageRepoDigests": [
+            "ghcr.io/sivacor/julia1.10@sha256:d192705c4cf1842c1d8be4fb96a6a71101644913e8f9a03badff1e65ab17e8ba"
+          ],
+          "sivacor:ImageRepoTags": [
+            "ghcr.io/sivacor/julia1.10:1.10.12-20260916"
+          ],
+          "sivacor:ImageSize": 224116435,
+          "sivacor:KernelVersion": "7.0.0-31-generic",
+          "sivacor:MaxCPUPercent": 165.13,
+          "sivacor:MaxDiskUsage": 229376,
+          "sivacor:MaxMemoryUsage": 207974400,
+          "sivacor:MemTotal": 31529918464,
+          "sivacor:NCPU": 8,
+          "sivacor:OSType": "linux",
+          "sivacor:OSVersion": "24.04",
+          "sivacor:OperatingSystem": "Ubuntu 24.04.5 LTS",
+          "sivacor:Processor": "AMD EPYC-Milan Processor",
+          "sivacor:RequestedDiskGB": null,
+          "sivacor:RequestedMemoryGB": 30,
+          "sivacor:StartedAt": "2026-09-19T23:10:47.425568672Z",
+          "sivacor:WorkspaceDiskTotal": 61285326848,
+          "trov:accessedArrangement": {
+            "@id": "trp/3/binding/0",
+            "@type": "trov:ArrangementBinding",
+            "trov:arrangement": {
+              "@id": "arrangement/3"
+            },
+            "trov:boundTo": "/workspace"
+          },
+          "trov:contributedToArrangement": {
+            "@id": "trp/3/binding/1",
+            "@type": "trov:ArrangementBinding",
+            "trov:arrangement": {
+              "@id": "arrangement/4"
+            },
+            "trov:boundTo": "/workspace"
+          },
+          "trov:endedAtTime": "2026-09-19T23:10:51.212773",
+          "trov:hasPerformanceAttribute": [
+            {
+              "@id": "trp/3/attribute/0",
+              "@type": "trov:EnvironmentIsolation",
+              "trov:warrantedBy": {
+                "@id": "trs/capability/1"
+              }
+            },
+            {
+              "@id": "trp/3/attribute/1",
+              "@type": "trov:NonInteractiveExecution",
+              "trov:warrantedBy": {
+                "@id": "trs/capability/3"
+              }
+            },
+            {
+              "@id": "trp/3/attribute/2",
+              "@type": "trov:CapabilitiesTechnicallyEnforced",
+              "trov:warrantedBy": {
+                "@id": "trs/capability/4"
+              }
+            },
+            {
+              "@id": "trp/3/attribute/3",
+              "@type": "trov:InternetIsolation",
+              "trov:warrantedBy": {
+                "@id": "trs/capability/2"
+              }
+            }
+          ],
+          "trov:startedAtTime": "2026-09-19T23:10:45.837033",
+          "trov:wasConductedBy": {
+            "@id": "trs"
+          }
+        }
+      ],
+      "trov:vocabularyVersion": "0.1",
+      "trov:wasAssembledBy": {
+        "@id": "trs",
+        "@type": [
+          "trov:TrustedResearchSystem",
+          "schema:Organization"
+        ],
+        "rdfs:comment": "SIVACOR TRO profile",
+        "sivacor:stackVersion": "0.2.0",
+        "trov:contact": "admin@sivacor.org",
+        "trov:description": "SIVACOR AEA Infrastructure",
+        "trov:hasCapability": [
+          {
+            "@id": "trs/capability/1",
+            "@type": "trov:CanIsolateEnvironment"
+          },
+          {
+            "@id": "trs/capability/2",
+            "@type": "trov:CanProvideInternetIsolation"
+          },
+          {
+            "@id": "trs/capability/3",
+            "@type": "trov:CanPreventAuthorIntervention"
+          },
+          {
+            "@id": "trs/capability/4",
+            "@type": "trov:CanEnforceCapabilitiesTechnically"
+          }
+        ],
+        "trov:name": "sivacor",
+        "trov:owner": "SIVACOR Team",
+        "trov:publicKey": "-----BEGIN PGP PUBLIC KEY BLOCK-----\n\nmDMEaRZowxYJKwYBBAHaRw8BAQdAZE3O+GSW5cJRjptdb8N7UW6jI7l6URVid7Qy\nsO4TTMO0IVNJVkFDT1IgVFJTIDxlZGl0b3JzQHNpdmFjb3Iub3JnPoiTBBMWCgA7\nFiEE99tIU58getRhLcQI2LsgcYYq/0oFAmkWaMMCGwMFCwkIBwICIgIGFQoJCAsC\nBBYCAwECHgcCF4AACgkQ2LsgcYYq/0roKAEAzcHiTUWZPf7IrTct0Zc9wV6C6pIi\nJz5s6EvopXMbiA4A/06xb/as9R479KXUtS7GmuIe5A1cKn6IHnu0gt1v9CUJtCFB\nZG1pbiBTSVZBQ09SIDxhZG1pbkBzaXZhY29yLm9yZz6IkwQTFgoAOxYhBPfbSFOf\nIHrUYS3ECNi7IHGGKv9KBQJpfQJHAhsDBQsJCAcCAiICBhUKCQgLAgQWAgMBAh4H\nAheAAAoJENi7IHGGKv9KnDcBAMAw+4jrpQGsbaJrgs/2MO/Q2TYTH2Rlsh9WVT1l\nLlYYAP0W+WkIs+J0VnuEXCrLcc6rc9iQUiBKb7lWqTaaECk1Bbg4BGkWaMMSCisG\nAQQBl1UBBQEBB0BoHfFiGW3Stl+JnlWswb3vpXuiEVAmWUst/dTIbk9NEgMBCAeI\neAQYFgoAIBYhBPfbSFOfIHrUYS3ECNi7IHGGKv9KBQJpFmjDAhsMAAoJENi7IHGG\nKv9Kmu0BAOcqj2DerJgZH7126goV0tXBqncbG5MPuzufGmdjYJ07AQCJAX/uj9X/\nv+YHdwl32ozy/kKWYaqlbrODQUbgSu0xBA==\n=iFZz\n-----END PGP PUBLIC KEY BLOCK-----\n",
+        "trov:url": "https://sivacor.org/"
+      }
+    }
+  ]
+}

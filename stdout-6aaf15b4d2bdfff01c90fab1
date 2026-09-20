@@ -1,0 +1,38 @@
+
+
+===== Stage 1 Dependency Resolution =====
+
+
+
+===== Stage 1 Output =====
+
+Rootdir has been set to: /workspace/project/sivacor-test-julia-main
+=== Activating the project environment (Project.toml) ===
+=== Installing packages pinned in Manifest.toml ===
+=== SYSTEM DIAGNOSTICS ===
+Julia version: 1.10.12
+Platform: x86_64-linux-gnu
+Status `~/project/sivacor-test-julia-main/Project.toml`
+  [7876af07] Example v0.5.5
+Warning The project dependencies or compat requirements have changed since the manifest was last resolved. It is recommended to `Pkg.resolve()` or consider `Pkg.update()` if necessary.
+==========================
+
+
+===== Stage 2 Dependency Resolution =====
+
+
+
+===== Stage 2 Output =====
+
+Rootdir has been set to: /workspace/project/sivacor-test-julia-main
+=== Activating the project environment (Project.toml) ===
+=== Installing packages pinned in Manifest.toml ===
+=== SYSTEM DIAGNOSTICS ===
+Julia version: 1.10.12
+Platform: x86_64-linux-gnu
+Status `~/project/sivacor-test-julia-main/Project.toml`
+  [7876af07] Example v0.5.5
+Warning The project dependencies or compat requirements have changed since the manifest was last resolved. It is recommended to `Pkg.resolve()` or consider `Pkg.update()` if necessary.
+==========================
+=== Test completed successfully ===
+Result written to: /workspace/project/sivacor-test-julia-main/results/results.txt
